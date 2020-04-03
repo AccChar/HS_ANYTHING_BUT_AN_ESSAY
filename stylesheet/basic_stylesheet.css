@@ -1,0 +1,41 @@
+
+#zoo { 
+border-style:solid;
+border-width: 50px;
+border-top:50px;
+margin: auto;
+background:-webkit-linear-gradient(gray,rgb(56, 56, 53));}
+
+body {
+background-color:darkslategray
+}
+
+#zoo {
+text-align:left;
+-webkit-text-size-adjust:40px;
+color:darkgray;
+text-size-adjust:40px ;
+}
+
+#zoo .dog{
+color:paleturquoise;
+font-size:18px;
+}
+
+
+#zoo .dog2{
+color:paleturquoise;
+font-size:18px;
+}
+
+#zoo .dog3{
+color:paleturquoise;
+font-size:18px;
+}
+a:link {
+color:lightgrey
+}
+
+#zoo {
+opacity:0.8;
+}
