@@ -1,0 +1,117 @@
+/* Charlie's body_nav CSS */
+body {
+    background: black;
+    font-weight: bold;
+    font-family: "Luckiest Guy", cursive;
+}
+.nav_top_header_body ul{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+}
+.nav_top_header_body li {
+    float: left;
+    background-color: #121212;
+    border-radius: 40px;
+    margin: 0;
+    padding: 10px;
+}
+.nav_top_header_body li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.nav_top_header_body li a:hover {
+    background-color: white;
+    border-radius: 18px;
+    color: black;
+}
+.nav_middle_body {
+    padding: 100px;
+    left: 650px; 
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-family: "Luckiest Guy", cursive;
+}
+#anything_but_an_essay_creators_nav {
+    color: white;
+    text-align: center;
+}
+.nav_image_body {
+    text-align: center;
+}
+.nav_image_body a:hover {
+    background-color: white;
+    border-radius: 18px;
+    color: black;
+}
+#nav_bottom_quotes {
+    color:white;
+    text-align: center;
+}
+body,
+html {
+  background: radial-gradient(
+    circle,
+    rgb(3, 3, 3) 0%,
+    rgb(0, 0, 0) 100%
+  );
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  margin: 0;
+  font-size: 8em;
+  padding: 0;
+  color: white;
+  text-shadow: 0 0.1em 20px rgba(0, 0, 0, 1), 0.05em -0.03em 0 rgba(0, 0, 0, 1),
+    0.05em 0.005em 0 rgba(0, 0, 0, 1), 0em 0.08em 0 rgba(0, 0, 0, 1),
+    0.05em 0.08em 0 rgba(0, 0, 0, 1), 0px -0.03em 0 rgba(0, 0, 0, 1),
+    -0.03em -0.03em 0 rgba(0, 0, 0, 1), -0.03em 0.08em 0 rgba(0, 0, 0, 1), -0.03em 0 0 rgba(0, 0, 0, 1);
+}
+h1 {
+    transform: scale(0.9);
+    color: white;
+    text-shadow: 3px 3px cornflowerblue;
+    display: inline-block;
+  }
+  h1:first-child {
+    animation: bop 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite
+      alternate;
+  }
+  h1:last-child {
+    animation: bopB 1s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards
+      infinite alternate;
+  }
+@keyframes bop {
+  0% {
+    transform: scale(0.9);
+  }
+  50%,
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes bopB {
+  0% {
+    transform: scale(0.9);
+  }
+  80%,
+  100% {
+    transform: scale(1) rotateZ(-3deg);
+  }
+}

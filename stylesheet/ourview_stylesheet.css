@@ -1,0 +1,55 @@
+   body {
+        animation-name: coolguy;
+          animation-duration:10s;
+          animation-timing-function:ease-in-out;
+          animation-iteration-count:1;
+          animation-direction:initial;
+                  
+   }
+   @keyframes coolguy{
+    0% {background-image:url("https://www.gannett-cdn.com/-mm-/6a5956ff3a1fc88ab6d76cf1c5d2cf69242da7bd/c=0-332-4460-2852/local/-/media/2015/01/01/LAGroup/LafayetteLA/635557242924610663-0101bestofLWPK0041.JPG?width=3200&height=1680&fit=crop") ;}
+    50%{background-image:url("https://media.npr.org/assets/img/2019/11/05/ap_19309771276892-8930b94d711106900f27805e6c1c32583c5300d2-s800-c85.jpg");}
+    75%{background-image:url("https://images-na.ssl-images-amazon.com/images/I/81XkeJFAnyL.jpg");}
+   100% {background-image: url("https://static.wixstatic.com/media/6b7846_a882cf356f40485687bd64cd15928e94.jpg");}
+   }
+
+   #zoo { 
+    border-style:solid;
+    border-width: 50px;
+    border-top:50px;
+    margin: auto;
+    background:-webkit-linear-gradient(gray,rgb(56, 56, 53));}
+
+    body {
+      background-color:darkslategray
+    }
+
+    #zoo {
+      text-align:left;
+      -webkit-text-size-adjust:40px;
+      color:darkgray;
+      text-size-adjust:40px ;
+    }
+
+    #zoo .dog{
+      color:paleturquoise;
+      font-size:18px;
+    }
+
+    
+    #zoo .dog2{
+      color:paleturquoise;
+      font-size:18px;
+    }
+    
+    #zoo .dog3{
+      color:paleturquoise;
+      font-size:18px;
+    }
+    a:link {
+      color:lightgrey
+    }
+
+  #zoo {
+      opacity:0.8;
+  }
